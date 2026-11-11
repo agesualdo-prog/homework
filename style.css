@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap");
+
+body {
+    margin: 20px;
+    background-color: #86dcab;
+    color: #7b1e87;
+    font-family: "DM Sans", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", Georgia, serif;
+}
+
+#intro {
+    color: #28634e;
+}
+
+p {
+    color: #52635c;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-grid > div {
+    padding: 20px;
+    border: 1px solid #d7dfd8;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.about {
+    color: #28634e;
+}
+
+.card-grid img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (min-width: 320px) {
+    .card-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
