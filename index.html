@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,39 +7,55 @@
     <title>Homework1</title>
 </head>
 <body>
-    <h1 id="intro">Hello World</h1>
 
-    <p>This is my first homework assignment for web development.</p>
+    <!-- Header -->
+    <header>
+        <h1 id="intro">Hello World</h1>
+        <p>This is my first homework assignment for web development.</p>
+    </header>
 
-    <h2>Introduction to HTML</h2>
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#likes">Things I Like</a>
+    </nav>
 
-    <div class="card-grid">
-        <div>
-            <h3 class="about">My Picture</h3>
-            <img src="tree.jpg"
-                 alt="A photo of me in a tree"
-                 width="150">
+    <!-- Main Content -->
+    <main>
+        <h2>Introduction to HTML</h2>
+
+        <div class="card-grid">
+            <section>
+                <h3>My Picture</h3>
+                <img src="tree.jpg" alt="A photo of me in a tree" width="150">
+            </section>
+
+            <section id="about">
+                <h3>About Me</h3>
+                <ul>
+                    <li>Name: Angel Gesualdo</li>
+                    <li>Age: 23</li>
+                    <li>Occupation: Student</li>
+                </ul>
+            </section>
+
+            <section id="likes">
+                <h3>Things I Like</h3>
+                <ol>
+                    <li>Playing Video Games</li>
+                    <li>Watching Movies</li>
+                    <li>Listening to Music</li>
+                    <li>Hanging out with Friends</li>
+                    <li>Reading Books</li>
+                </ol>
+            </section>
         </div>
+    </main>
 
-        <div>
-            <h3 class="about">About Me</h3>
-            <ul>
-                <li>Name: Angel Gesualdo</li>
-                <li>Age: 23</li>
-                <li>Occupation: Student</li>
-            </ul>
-        </div>
+    <!-- Footer -->
+    <footer>
+        <p>Angel Gesualdo | Homework 1</p>
+    </footer>
 
-        <div>
-            <h3 class="about">Things I Like</h3>
-            <ol>
-                <li>Playing Video Games</li>
-                <li>Watching Movies</li>
-                <li>Listening to Music</li>
-                <li>Hanging out with Friends</li>
-                <li>Reading Books</li>
-            </ol>
-        </div>
-    </div>
 </body>
 </html>
